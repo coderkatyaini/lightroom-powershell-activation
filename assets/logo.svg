@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d1117"/>
+  
+  <!-- Terminal chevron brackets - left angle -->
+  <polyline points="52,88 28,128 52,168" fill="none" stroke="#39d353" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  
+  <!-- Terminal chevron brackets - right angle, offset and slightly cropped -->
+  <polyline points="204,92 228,128 204,164" fill="none" stroke="#c9d1d9" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  
+  <!-- Photographic negative frame - tilted slightly off-axis -->
+  <polygon points="78,72 176,64 184,180 86,188" fill="none" stroke="#f0f6fc" stroke-width="2.5" stroke-linejoin="miter"/>
+  
+  <!-- Negative inner frame perforations -->
+  <polygon points="86,82 168,75 175,170 93,177" fill="none" stroke="#c9d1d9" stroke-width="1.2" stroke-dasharray="4,4"/>
+  
+  <!-- Negative image content: lunar/moon shape - the photo being developed -->
+  <path d="M 112,108 A 28,28 0 1,0 138,150 A 22,22 0 1,1 112,108 Z" fill="#39d353" opacity="0.85"/>
+  
+  <!-- Highlight on moon -->
+  <path d="M 118,118 A 16,16 0 0,1 128,134" fill="none" stroke="#f0f6fc" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Developer grain/dot particles -->
+  <circle cx="148" cy="96" r="1.5" fill="#c9d1d9" opacity="0.7"/>
+  <circle cx="96" cy="160" r="1.2" fill="#c9d1d9" opacity="0.6"/>
+  <circle cx="158" cy="156" r="1" fill="#39d353" opacity="0.5"/>
+  <circle cx="104" cy="94" r="1.3" fill="#c9d1d9" opacity="0.5"/>
+  
+  <!-- Command prompt cursor - underscores below negative -->
+  <rect x="100" y="200" width="6" height="3" fill="#39d353"/>
+  <rect x="112" y="200" width="6" height="3" fill="#39d353"/>
+  <rect x="124" y="200" width="6" height="3" fill="#39d353"/>
+  <rect x="148" y="200" width="12" height="3" fill="#f0f6fc"/>
+  
+  <!-- Execution dot after cursor -->
+  <circle cx="170" cy="201.5" r="2" fill="#39d353"/>
+  
+  <!-- Small technical diagram lines connecting brackets to negative -->
+  <line x1="58" y1="110" x2="78" y2="104" stroke="#c9d1d9" stroke-width="1" opacity="0.4" stroke-dasharray="2,3"/>
+  <line x1="58" y1="146" x2="82" y2="156" stroke="#c9d1d9" stroke-width="1" opacity="0.4" stroke-dasharray="2,3"/>
+  <line x1="198" y1="110" x2="180" y2="100" stroke="#c9d1d9" stroke-width="1" opacity="0.4" stroke-dasharray="2,3"/>
+  
+  <!-- Tiny corner registration marks - technical edge -->
+  <path d="M 40,40 L 40,52 L 52,52" fill="none" stroke="#c9d1d9" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 216,40 L 216,52 L 204,52" fill="none" stroke="#c9d1d9" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 40,216 L 40,204 L 52,204" fill="none" stroke="#c9d1d9" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 216,216 L 216,204 L 204,204" fill="none" stroke="#39d353" stroke-width="1.5" opacity="0.5"/>
+</svg>
